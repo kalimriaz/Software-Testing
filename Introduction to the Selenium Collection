@@ -1,0 +1,42 @@
+Introduction to the Selenium Collection
+Posted by admin
+Selenium is a free and open source framework that combines different tools and API under four different components that you can use while automating your testing situations and to reduce and handle challenges that come with it.
+
+As said, the selenium suite contains four main components:
+
+IDE (Selenium Integrated Development Environment)
+Selenium Remote Control (RC).
+WebDriver in Selenium
+Grid in Selenium.
+IDE (Selenium Integrated Development Environment)
+
+IDE is a basic Firefox “Add-on” that we can use to record/play, or create and execute selenium scripts, those scripts simulate the operator/tester activities achieved in the browser.
+
+Selenium Remote Control (RC)
+
+RC, was one of the earliest/old tools that developed in the selenium suite, it was calculated to allow users to automate their test cases with different programming languages (e.g. java, C# , Ruby etc..) supported multiple browsers (Chrome , IE, Firefox etc..). Think around it as the first time evolution step to creating the WebDriver tool.
+
+Selenium RC tool follows a Client/Server architecture where the client libraries (API that we can use to develop tests) can communicate with the RC server that forwarding each command to the browser for execution.
+
+Selenium WebDriver
+
+WebDriver is a programming interface that allows the user to develop new and more advanced selenium scripts; it has a lot of extra feature and support lot of new frameworks like TestNG, Jenkins or much more. Tester can do automation using Selenium Scripts in different languages like (C#, PHP, Java Etc.).
+
+Component of webdriver is more advanced that other components that come with the selenium suite such as Selenium RC/IDE, the main reasons
+
+Selenium Grid
+
+Grid is another part if the selenium suite, once combined with Selenium RC, it’s allowing us to run multiple tests in parallel against different browsers that are located under different servers.
+
+The concept of this tool is based on two main components, the first called “Hub”, this component is the central location where you can run your tests (there is only one Hub in a grid), the second component is called “Node”, each node is set as the selenium instance that allowing you to run tests that are inherited from the HUB.
+
+Hub
+
+The hub is the server where we load the tests into.
+HUB is configured only on one server.
+There is a single HUB in a grid.
+Node
+
+Each node can be configured with different artifacts (Browsers, Platforms and Hardware).
+There can be more than one node in a grid.
+Node is equivalent to a selenium instance that will execute the tests configured on the hub.
